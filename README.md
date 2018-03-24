@@ -1,0 +1,1 @@
+# Static sites on contentful
