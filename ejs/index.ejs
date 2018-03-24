@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Articles</title>
+</head>
+<body>
+	<h1>Articles</h1>
+	<hr>
+	<% data.forEach((article) => { %>
+		<h2><%= article.fields.title %></h2>
+		<p><%= article.fields.description %></p>
+		<hr>
+	<% }) %>
+</body>
+</html>
